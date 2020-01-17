@@ -26,7 +26,7 @@ For instance:
 ## Examples
 Round robin placement for all parents and childs:
 
-`hpe-atx -p rr_tree python atxTester.py`
+`# hpe-atx -p rr_tree python atxTester.py`
 
 `How many Parent jobs? 4`
 
@@ -37,7 +37,7 @@ Round robin placement for all parents and childs:
 
 Packed placement for all parents and childs:
 
-`hpe-atx -p rr_tree python atxTester.py`
+`# hpe-atx -p rr_tree python atxTester.py`
 
 `How many Parent jobs? 3`
 
@@ -47,7 +47,7 @@ Packed placement for all parents and childs:
 
 Round robin placement for all parents and pack for the childs:
 
-`hpe-atx -p rr_pack python atxTester.py`
+`# hpe-atx -p rr_pack python atxTester.py`
 
 `How many Parent jobs? 3`
 
@@ -57,5 +57,7 @@ Round robin placement for all parents and pack for the childs:
 
 ## Links
 1 HPE Application Tuner Express [ATX Page](https://downloads.linux.hpe.com/SDR/project/hpe-atx/index.html)
+
 2 HPE ATX documentation [page](http://downloads.linux.hpe.com/SDR/project/hpe-atx/Using_HPE-ATX_v_1.0.2.pdf)
+
 3 htop monitoring [page](https://hisham.hm/htop/)
