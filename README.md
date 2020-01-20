@@ -1,5 +1,4 @@
 # atxTester
-====
 
 ## Purpose
 This tool was created to generate a workload allowing to demonstrate the capabilities of HPE ATX.
