@@ -3,18 +3,26 @@
 
 ## Purpose
 This tool was created to generate a workload allowing to demonstrate the capabilities of HPE ATX.
+
 HPE ATX controls and optimizes the location of processes and threads in a NUMA server.
 
 ## Architecture
 atxTester is a single Python program generating 2 levels of sub-processes:
+
 1 the "parents" processes 
+
 2 the child processes, obviously created by the parents
 
 ## Usage
-1 download atxtester.py
-2 run it as `python atxtester.py`
+1 download atxtester.py or atxTester.zip in the release tab
+
+2 unzip atxTester.zip
+
+3 run it as `python atxtester.py`
+
 Altough Python 3 is recommended, both Python version 2 and 3 work.
 Once atxTester is started, one need to provide the number of parents and the number of child. These values are usually related to the number of NUMA nodes and cores.
+i
 For instance:
 
 `# python atxTester.py`
