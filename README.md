@@ -30,6 +30,14 @@ For instance:
 
 `How many Child jobs? 10`
 
+## Usage with Docker image
+
+The docker image includes all the prerequisites (python3, numalib, hpe-atx) as well as the latest releast of atxTester.py. Simply run the command below, then select the policy to apply:
+
+`#  docker run -ti yallandit/atxtester-docker`
+
+` Select the policy to apply [ rr_tree - pack - ff_tree - rr_pack - CPU ]`
+
 ## Examples
 Round robin placement for all parents and childs:
 
